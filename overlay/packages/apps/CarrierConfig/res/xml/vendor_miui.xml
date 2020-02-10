@@ -25,7 +25,62 @@
         <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true" />
     </carrier_config>
     <carrier_config mcc="260">
-        <int name="smsToMmsTextThreshold" value="5" />
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="208" mnc="01">
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="214" mnc="03,05,07">
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="226" mnc="10">
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+            <item value="fota" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="732" mnc="101">
         <string-array name="carrier_metered_apn_types_strings" num="4">
             <item value="default" />
             <item value="dun" />
@@ -247,9 +302,6 @@
     <carrier_config mcc="466" mnc="01">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-    </carrier_config>
-    <carrier_config mcc="466" mnc="97">
-        <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
     <carrier_config mcc="456" mnc="11">
         <boolean name="editable_enhanced_4g_lte_bool" value="false" />
